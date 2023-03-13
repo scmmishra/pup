@@ -1,0 +1,44 @@
+{
+  "name": "pup-fetch",
+  "description": "A tiny pupper that fetches for you",
+  "version": "0.0.1",
+  "license": "MIT",
+  "homepage": "https://github.com/scmmishra/pup",
+  "keywords": [
+    "fetch",
+    "requests",
+    "http",
+    "pup"
+  ],
+  "repository": "https://github.com/scmmishra/pup",
+  "bugs": "https://github.com/scmmishra/pup/issues",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "@vitest/coverage-c8": "^0.29.2",
+    "c8": "^7.13.0",
+    "cross-fetch": "^3.1.5",
+    "jsdom": "^21.1.1",
+    "msw": "^1.1.0",
+    "tsup": "^6.6.3",
+    "typescript": "^4.9.5",
+    "vitest": "^0.29.2"
+  }
+}
