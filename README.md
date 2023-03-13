@@ -39,8 +39,8 @@ import { get, post } from "http-api-wrapper";
 
 Make a GET request using the get method:
 
-```js
-const response = (await get) < MyResponseType > "/api/my-endpoint";
+```ts
+const response = await get<MyResponseType>("/api/my-endpoint");
 ```
 
 The `get` method takes two arguments: the `path` to the endpoint and an optional configuration object. The configuration object can include a `baseUrl` property to specify a base URL to prepend to the endpoint path.
@@ -49,9 +49,9 @@ The `get` method takes two arguments: the `path` to the endpoint and an optional
 
 Make a POST request using the post method:
 
-```js
+```ts
 const body = { name: "John Doe", email: "john.doe@example.com" };
-const response = (await post) < MyResponseType > ("/api/my-endpoint", body);
+const response = await post<MyResponseType>("/api/my-endpoint", body);
 ```
 
 The `post` method takes three arguments: the `path` to the endpoint, the request `body`, and an optional configuration object. Like with `get`, the configuration object can include a `baseUrl` property.
