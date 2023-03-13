@@ -32,7 +32,7 @@ yarn install pup-fetch
 Import the methods you need from the module:
 
 ```js
-import { get, post } from "http-api-wrapper";
+import { get, post } from "pup-fetch";
 ```
 
 ### GET Requests
