@@ -7,9 +7,11 @@
 <br>
 <br>
 
-[![DeepSource](https://deepsource.io/gh/scmmishra/pup.svg/?label=active+issues&show_trend=true&token=_HAIDwNbi1ocMhaBKxB_BcSQ)](https://deepsource.io/gh/scmmishra/pup/?ref=repository-badge) [![DeepSource](https://deepsource.io/gh/scmmishra/pup.svg/?label=resolved+issues&show_trend=true&token=_HAIDwNbi1ocMhaBKxB_BcSQ)](https://deepsource.io/gh/scmmishra/pup/?ref=repository-badge)
+![DeepSource](https://deepsource.io/gh/scmmishra/pup.svg/?label=active+issues&show_trend=true&token=_HAIDwNbi1ocMhaBKxB_BcSQ)
+![DeepSource](https://deepsource.io/gh/scmmishra/pup.svg/?label=resolved+issues&show_trend=true&token=_HAIDwNbi1ocMhaBKxB_BcSQ)
+![Less than 400B](https://deno.bundlejs.com/?q=pup-fetch&badge)
 
-  <p>A tiny pupper that fetches for you, pup is a slim wrapper around fetch</p>
+  <p>A tiny (370B) pupper that fetches for you, pup is a slim wrapper around fetch</p>
 
 </div>
 
