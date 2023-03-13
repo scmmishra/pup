@@ -7,8 +7,8 @@ export interface RequestConfig extends RequestInit {
 /**
  * API wrapper to fetch
  *
- * @param  {string} path
- * @param  {RequestConfig} config
+ * @param path string
+ * @param config RequestConfig
  * @returns Promise
  */
 export async function http<T>(path: string, config: RequestConfig): Promise<T> {
@@ -30,10 +30,10 @@ export async function http<T>(path: string, config: RequestConfig): Promise<T> {
 }
 
 /**
- * GET method around
+ * GET method around http
  *
- * @param  {string} path
- * @param  {RequestConfig} config?
+ * @param path string
+ * @param config RequestConfig
  * @returns Promise
  */
 export async function get<T>(path: string, config?: RequestConfig): Promise<T> {
@@ -41,6 +41,14 @@ export async function get<T>(path: string, config?: RequestConfig): Promise<T> {
   return await http<T>(path, init);
 }
 
+/**
+ * GET method around http
+ *
+ * @param path string
+ * @param body string
+ * @param config RequestConfig
+ * @returns Promise
+ */
 export async function post<T>(
   path: string,
   body: Record<string, unknown>,
