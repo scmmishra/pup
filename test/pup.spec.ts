@@ -1,6 +1,5 @@
 import {
   expect,
-  assert,
   describe,
   it,
   afterEach,

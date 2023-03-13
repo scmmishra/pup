@@ -1,4 +1,4 @@
-import { assert, describe, it, beforeEach, afterEach, vi } from "vitest";
+import { assert, describe, it } from "vitest";
 import { trimLeadingSlashes, trimTrailingSlashes, joinUrl } from "../src/utils";
 
 describe("trimLeadingSlashes function", () => {
