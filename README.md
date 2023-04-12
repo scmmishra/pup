@@ -2,7 +2,8 @@
 <br>
 <br>
 <p>
-  🐶
+  <img src=".github/pupper.webp" style="height: 150px;">
+  <h1>pup-fetch</h1>
 </p>
 <br>
 <br>
