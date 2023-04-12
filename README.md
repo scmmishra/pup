@@ -2,7 +2,7 @@
 <br>
 <br>
 <p>
-  🐶
+  <img src=".github/pupper.webp">
 </p>
 <br>
 <br>
