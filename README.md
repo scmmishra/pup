@@ -2,7 +2,7 @@
 <br>
 <br>
 <p>
-  <img src=".github/pupper.webp">
+  <img src=".github/pupper.webp" style="height: 150px;">
 </p>
 <br>
 <br>
